@@ -30,7 +30,7 @@ inquirer
       type: 'list',
       name: 'license',
       message: "License?",
-      choices: ['None', 'Apache 2.0 License', 'Boost Software License 1.0', 'Eclipse Public License 2.0', 'GNU General Public License v3.0', 'MIT']
+      choices: ['None', 'Apache 2.0 License', 'Boost Software License 1.0', 'Eclipse Public License 1.0', 'GNU General Public License v3.0', 'MIT']
     },
     {
       type: 'input',
