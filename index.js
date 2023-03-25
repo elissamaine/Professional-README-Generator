@@ -28,9 +28,9 @@ inquirer
     },
     {
       type: 'list',
-      name: 'liscence',
-      message: "Liscence?",
-      choices: ['None', 'MIT']
+      name: 'license',
+      message: "License?",
+      choices: ['None', 'Apache 2.0 License', 'Boost Software License 1.0', 'Eclipse Public License 2.0', 'GNU General Public License v3.0', 'MIT']
     },
     {
       type: 'input',
@@ -59,7 +59,7 @@ inquirer
     const template = generateMarkdown(data)
 
     fs.writeFile('README.md', template, (err) =>
-      err ? console.log(err) : console.log('README created!')
+      err ? console.log(err) : console.log('README.md created!')
     );
   });
 
