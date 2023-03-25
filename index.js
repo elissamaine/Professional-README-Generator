@@ -30,15 +30,35 @@ inquirer
       type: 'list',
       name: 'liscence',
       message: "Liscence?",
-      choices: []
+      choices: ['None', 'MIT']
+    },
+    {
+      type: 'input',
+      name: 'contribution',
+      message: "What are the guidelines for contribution?"
+    },
+    {
+      type: 'input',
+      name: 'tests',
+      message: 'Provide any tests for your application:'
+    },
+    {
+      type: 'input',
+      name: 'userName',
+      message: 'Your GitHub username:'
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Your email:'
     },
 
   ])
 
-  .then((fileName, data) => {
-    const fileName = `${data.name.toLowerCase().split(' ').join('')}README.md`;
+  .then((data) => {
+    const template = generateMarkdown(data)
 
-    fs.writeFile(fileName, JSON.stringify(data, null, '\t'), (err) =>
+    fs.writeFile('README.md', template, (err) =>
       err ? console.log(err) : console.log('README created!')
     );
   });
