@@ -1,9 +1,9 @@
-# please work this time im begging you
-  ![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)
+# README Generator
+  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
   ## Description
 
-  on my hands and knees
+  This application is a high quality README Generator that uses the comand line to prompth the user to answer 10 questions, the useres input from these 10 questions is then used to create a professional read me for the users project.
 
   ## Table of Contents
 
@@ -17,32 +17,32 @@
   ## Installation
 
   steps to install:
-  i dont want to have to keep doing this
+  n/a
 
   ## Usage 
 
   Usage information:
-  aaaaaaaaaaaaaa
+  n/a
 
   ## License
 
-  This project has a(n) Eclipse Public License 1.0. 
-  If you have any questions about licenseing refer to Eclipse Public License 1.0 documentation: [Link to Eclipse Public License 1.0 information](https://opensource.org/licenses/EPL-1.0) 
+  This project has a(n) Apache 2.0 License. 
+  If you have any questions about licenseing refer to Apache 2.0 License documentation: [Link to Apache 2.0 License information](https://opensource.org/licenses/Apache-2.0) 
 
 
   ## Contributing 
 
   Guidelines for contribution:
-  i dont care anymore
+  none
 
   ## Tests 
 
-  no
+  n/a
 
   ## Questions
 
-  If you have any questions please contact the project creator at: emaine97@yahoo.com
-  And check out more that they have done on their GitHub account at: fu
+  If you have any questions please contact the project creator at: emainr97@yahoo.com
+  And check out more that they have done on their GitHub account at: elissamaine
 
   Thank You!
 
